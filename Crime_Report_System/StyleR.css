@@ -4,20 +4,19 @@
     font-family: 'Kaisei HarunoUmi', serif;
 }
 
-
-
-body{
-
-    background-color: #3D2C8D;
-
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 nav{
-    position: relative;
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    
 }
 nav img{
     width: 50px;
@@ -41,7 +40,7 @@ nav img{
     content: '';
     width:0%;
     height: 2px;
-    background: rgb(231, 65, 65);
+    background: #96534e;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -54,31 +53,3 @@ nav img{
     color :white;
 }
 
-.col-md-6{
-    width:80%;
-    padding: 10px 0 10px;
-}
-.pincode{
-    width: 40%;
-}
-.MobNo{
-    width: 40%;
-}
-.container{
-    
-    position: relative;
-    margin-left: 30px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 50px;
-    background-color: #1C0C5B;
-    border-radius: 30px;
-    width: 40%;
-   
-}
-.Account{
-    color: white;
-    margin: 15px 0 15px 15px;
-    display: inline-block;
-    text-decoration: none; 
-}

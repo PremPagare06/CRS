@@ -63,15 +63,16 @@ nav img{
     width: 60%;
     color: white;
     position:absolute;
-    /* top: 50%; */                       /* changed*/
-    /* left: 35%; */
-    /* transform: translate(-50%,-50%);       changed */
+    top: 35%;                              /*changed*/
+    left: 30%;                            /*changed*/
+    transform: translate(-50%,-50%);     /*changed*/   
     text-align: left;
 
     margin-top: 50px;
     margin-left: 50px;
     margin-bottom: 50px;
     padding: 10px;
+
 }
 .text p{
     margin: 10px 0 40px;
@@ -132,7 +133,4 @@ nav img{
     border-radius: 0;
     text-align: center;
     cursor: pointer;
-}
-p{
-    font-size: 30px;
 }

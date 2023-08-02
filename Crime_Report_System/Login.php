@@ -71,12 +71,12 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     <link href="C:\xampp\htdocs\Crime_Report_System\Register.php ">
     <link href="C:\xampp\htdocs\Crime_Report_System\Report.php ">
     <link href="C:\xampp\htdocs\Crime_Report_System\Home.html ">
-    <title>Crime Reporting Portal</title>
-    <link rel="stylesheet" href="styleLo.css">
+    <title>City Crime Branch</title>
+    <link rel="stylesheet" href="styleLi.css">
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <section class="header">
@@ -85,7 +85,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
             <div class="nav-links">
                 <ul>
                     <li><a href="Home.html">Home</a></li>
-                    <li><a href="Contact.php">Contact Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="Register.php">Sign Up</a></li>
                     
                 </ul>
@@ -93,22 +93,21 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         </nav>
 
 
-<div class="container">
-<h3> Welcome</h3>
+<div class="container mt-4">
+<h3> Please Login Here</h3>
 <hr>
 <form action="" method="post">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label" >Username</label>
-    
-    <input type="email" class="form-control" name="username" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email-id">
+    <label for="exampleInputEmail1" class="form-label" style= color:white>Username</label>
+    <input type="email" class="form-control" name="username" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">
     
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label" >Password</label>
+    <label for="exampleInputPassword1" class="form-label" style= color:white>Password</label>
     <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Enter Password">
   </div>
   <div>
-  <button type="submit"  class="btn btn-primary">Login</button>
+  <button type="submit"  class="btn btn-primary">Sign In</button>
   </div>
 </form>
 </div>
